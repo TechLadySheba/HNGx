@@ -1,0 +1,38 @@
+
+@media (max-width: 768px) {
+
+  body {
+      font-size: 16px; 
+  }
+
+}
+
+header {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+
+}
+
+main {
+  text-align: center;
+  margin: 20px;
+
+}
+
+a {
+  
+  padding: 10px 20px;
+  text-decoration: none;
+  color: green;
+}
