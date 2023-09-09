@@ -1,4 +1,4 @@
-// Add JavaScript code here to update the current day of the week and UTC time if needed
+
 document.addEventListener("DOMContentLoaded", 
 function () {
   const dayOfWeekElement = document.querySelector('[data-testid="currentDayOfTheWeek"]');
