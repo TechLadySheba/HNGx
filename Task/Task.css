@@ -1,38 +1,58 @@
 
-@media (max-width: 768px) {
+    
+      h1[data-testid="slackUserName"] 
+      {
 
-  body {
-      font-size: 16px; 
-  }
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+      color: #e012ad;
+    }
 
-}
+   
+    img[data-testid="slackDisplayImage"] {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10%;
+      
+    }
 
-header {
-  text-align: center;
-  color: black;
-  padding: 20px;
-  
-  
-}
+   
+    p[data-testid="currentDayOfTheWeek"] {
+      font-size: 18px;
+      font-weight: bold;
+      color: #282527;
+      text-align: center;
+    }
 
-img {
-  max-width: 100%;
-  height: auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
+    p[data-testid="currentUTCTime"] {
+      font-size: 16px;
+      color: #777;
+      text-align: center;
+    }
 
-}
+    p[data-testid="myTrack"] {
+      font-size: 20px;
+      font-weight: bold;
+      color: #4CAF50;
+      text-align: center;
+    }
 
-main {
-  text-align: center;
-  margin: 20px;
+   
+    a[data-testid="githubURL"] {
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      color: #007bff;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
 
-}
+      body {
+          font-size: 16px; 
+      }
+    
+    }
 
-a {
-  
-  padding: 10px 20px;
-  text-decoration: none;
-  color: green;
-}
